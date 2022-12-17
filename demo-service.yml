@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-serive
+  namespace: demoservice
+spec:
+  type: NodePort
+  selector:
+    app: myapp
+  ports:
+  - port: 81
+    targetPort: 8081
