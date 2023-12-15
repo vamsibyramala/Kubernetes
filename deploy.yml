@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: vamsibyramala/test:1
+        image: vamsibyramala/test
         ports:
         - containerPort: 8080

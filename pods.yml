@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: demo
-    image: vamsibyramala/test
+    image: vamsibyramala/petshop
     resources:
     ports:
       - containerPort: 8080
