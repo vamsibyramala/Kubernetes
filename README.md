@@ -4,4 +4,4 @@ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/late
 
 **command to add load on a pod:**
 
-whiletrue; do wget -qO- http://ip:port; done
+while true; do wget -qO- http://ip:port; done
