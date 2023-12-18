@@ -1,2 +1,3 @@
-**command to add load to a pod**
-#while true; do wget -qO- <IP>:<port>; done
+On Kubernetes v1.21+:
+
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/high-availability-1.21+.yaml
